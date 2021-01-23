@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Roboto, Arial, sans-serif;
+        }
+        .ball {
+            list-style-image: url(/task/markers/football.png);
+        }
+        #poland {
+            list-style-image: url(/task/markers/flags/poland.png);
+        }
+        #russia {
+            list-style-image: url(/task/markers/flags/russia.png);
+        }
+        #czech {
+            list-style-image: url(/task/markers/flags/czech.png);
+        }
+        #greece {
+            list-style-image: url(/task/markers/flags/greece.png);
+        }
+    </style>
 </head>
 <body>
-    
+    <ul>
+        <li class='ball'>Группа А
+            <ul>
+                <li id='poland'>Польша</li>
+                <li id="russia">Россия</li>
+                <li id="czech">Чехия</li>
+                <li id="greece">Греция</li>
+            </ul>
+        </li>
+    </ul>
 </body>
 </html>
